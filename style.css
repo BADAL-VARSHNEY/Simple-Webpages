@@ -1,0 +1,426 @@
+/* CSS coding start */
+html{
+        scroll-behavior: smooth;
+}
+
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+}
+/* navbar start */
+nav{
+        width: 100%;
+        height: 80px;
+        background-image: url(../Img/header_bg.jpg);
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        position: fixed;
+}
+.logo img{
+        width: 150px;
+}
+.menu a{
+        padding: 10px 20px;
+        text-decoration: none;
+        color: black;
+        border-radius: 5px;
+        font-weight: bold;
+        transition: 0.6s ;
+}
+.menu a:last-child{
+        background-color: rgb(189, 49, 56);
+        color: white;
+}
+.menu a:last-child:hover{
+        background-color: rgb(214, 193, 193);
+        color: black;
+}
+.menu a:hover{
+        background-color: rgb(189, 49, 56);
+        color: white;
+        border: none;
+        overflow: hidden;
+}
+
+/* Section start */
+#contant{
+        width: 100%;
+        height: 100vh;
+        background-image: url(../Img/banner.jpg);
+        background-size: cover;
+        display: flex;
+        justify-content: space-between;
+        padding: 170px 0px 0px 50px;
+}
+.text{
+        flex-basis: 40%;
+}
+.text h1{
+        font-size: 51px;
+        color: white;
+}
+.text h1 span{
+        font-size: 100px;
+}
+.girl{
+        flex-basis: 40%;
+}
+.girl img{
+        width: 500px;
+}
+.text p{
+        color: white;
+        line-height: 30px;
+        word-spacing: 4px;
+        letter-spacing: 1px;
+}
+.btn{
+        padding: 15px 25px;
+        margin-top: 25px;
+        border-radius: 5px;
+        overflow: hidden;
+        border: none;
+        font-size: 15px;
+        cursor: pointer;
+}
+.btn:hover{
+        background-color: black;
+        color: white;
+}
+
+/* Our services section start */
+.our-services{
+        width: 100%;
+        height: 100vh;
+}
+
+/* heading */
+.heading{
+        display: flex;
+        align-items: flex-end;
+        margin-left: 520px;
+        padding-top: 80px;
+}
+.heading h1{
+        font-size: 35px;
+}
+
+/* boxs */
+.boxs{
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+        margin-left: 130px;
+}
+.boxs div{
+        width: 250px;
+        height: 380px;
+        border: 1px solid rgb(196 , 195, 195);
+        margin: 30px 40px;
+        border-radius: 5px;
+        transition: 0.6s;
+}
+
+.boxs img{
+        padding: 35px 62px 30px 80px;
+}
+.boxs h3{
+        text-align: center;
+        font-weight: lighter;
+}
+.boxs p{
+        text-align: center;
+        padding: 25px 15px 0px 20px;
+        word-spacing: 1px;
+        line-height: 30px;
+}
+.boxs div:hover{
+        background-color: #d1042d;
+        color: white;
+        border-radius: 15px;
+}
+.btn-1{
+        padding: 15px 30px 15px 30px;
+        margin-top: 10px;
+        margin-left: 48%;
+        margin-bottom: 10px;
+        cursor: pointer;
+        background-color: black;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        transition: 0.6s;
+}
+.btn-1:hover{
+        background-color: #d1042d;
+}
+/* Our services section end */
+
+/* About section start */
+.about-section{
+        width: 100%;
+        height: 100vh;
+        background-image: url(../Img/about_bg.jpg);
+        background-size: cover;
+        background-position: center;
+}
+.about{
+        display: flex;
+        align-items: flex-end;
+        padding: 200px 0px 0px 60px;
+}
+.about h1{
+        font-size: 40px;
+        color: white;
+}
+.texting{
+        color: white;
+        padding: 0px 360px 0px 60px;
+}
+.texting p{
+        word-spacing: 2px;
+        letter-spacing: 1px;
+        line-height: 30px;
+}
+.texting button{
+        padding: 15px 30px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        cursor: pointer;
+        background-color: black;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        transition: 0.6s;
+}
+.texting button:hover{
+        background-color: #d1042d;
+}
+/* About section end */
+
+/* our Customer section start */
+.our-customer{
+        width: 100%;
+        height: 100vh;
+}
+.feedback{
+        display: flex;
+        align-items: flex-end;
+        margin-left: 500px;
+        padding-top: 80px;
+}
+.feedback h1{
+        font-size: 30px;
+}
+.customer{
+        padding-top: 30px;
+        padding-left: 610px;
+}
+.customer img{
+        width: 200px;
+}
+.customer h3{
+        padding-top: 20px;
+        padding-left: 20px;
+}
+.customer h4{
+        color: #d1042d;
+        padding-top: 15px;
+        padding-left: 55px;
+}
+
+.paragraf{
+        padding: 10px 150px;
+        text-align: center;
+}
+.paragraf p{
+        letter-spacing: 1px;
+        line-height: 25px;
+}
+/* our Customer section end */
+
+/* Contact section start */
+.contact{
+width: 100%;
+height: 100vh;
+background-image: url(../Img/contact.jpg);
+background-size: cover;
+background-position: center;
+}
+.back{
+        display: flex;
+        align-items: flex-end;
+        margin-left: 530px;
+        padding-top: 80px;
+}
+.back h1{
+        font-size: 30px;
+        color: white;
+}
+.back h1 span{
+        color: black;
+}
+
+.side-box{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+}
+.left-side{
+        padding: 60px 0px 0px 100px;
+        flex-basis: 40%;
+}
+.left-side input{
+        width: 500px;
+        margin: 15px;
+        padding: 15px 20px;
+        border: none;
+        overflow: hidden;
+        border-radius: 40px;
+}
+.left-side textarea{
+        width: 500px;
+        margin: 15px;
+        padding: 15px 20px;
+        border: none;
+        overflow: hidden;
+        border-radius: 20px;
+}
+
+.right-side{
+        flex-basis: 40%;
+        padding: 40px;
+}
+.right-side iframe{
+        border-radius: 5px;
+}
+
+#btn-2{
+        margin-left: 15px;
+        border-radius: 40px;
+        background-color: black;
+        color: white;
+        border: none;
+        padding: 15px 25px;
+        cursor: pointer;
+        transition: 0.6s;
+}
+#btn-2:hover{
+        background-color: #d1042d;
+}
+/* Contact section end */
+
+/* Information section start */
+.information{
+        width: 100%;
+        height: 100vh;
+        background-color: black;
+}
+.news{
+        margin-left: 700px;
+        padding-top: 100px;
+        position: relative;
+}
+.news h3{
+        color: white;
+        margin-left: 30px;
+}
+.news input{
+        width: 400px;
+        padding: 15px 110px 15px 20px;
+        margin-top: 10px;
+        border: none;
+        border-radius: 40px;
+}
+
+#btn-3{
+        position: absolute;
+        top: 136px;
+        right: 125px;
+        padding: 11px 10px;
+        cursor: pointer;
+        border: none;
+        border-radius: 20px;
+        background-color: #d1042d;
+        color: white;
+        transition: 0.6s;
+}
+#btn-3:hover{
+        background-color: black;
+}
+
+.account{
+        display: flex;
+        align-items: center;
+}
+.left-col{
+        flex-basis: 45%;
+        margin-left: 50px;
+        margin-top: 20px;
+}
+.mekar{
+       display: flex;
+       align-items: center;
+}
+.mekar img{
+        width: 60px;
+}
+.mekar h2{
+        color: white;
+        font-style: italic;
+}
+
+.left-col #pe{
+        color: white;
+        letter-spacing: 1px;
+        word-spacing: 2px;
+        line-height: 25px;
+}
+.left-col h3{
+        color: white;
+        margin: 65px 10px 20px 120px;
+}
+.left-col .pa{
+        color: white;
+        margin: 13px 10px 0px 120px;
+}
+.left-col .pa:hover{
+       color: #d1042d;
+       cursor: pointer;
+}
+
+.right-col{
+        flex-basis: 35%;
+        color: white;
+        margin: 30px 20px 20px 200px;
+        padding-right: 150px;
+}
+.right-col #hed1{
+        margin-bottom: 10px;
+}
+.right-col .p1{
+        margin-top: 10px;
+}
+.right-col .p1:hover{
+        color: #d1042d;
+        cursor: pointer;
+}
+/* Information section end */
+
+/* footer start */
+footer{
+        width: 100%;
+        height: 60px;
+        background-color: #d1042d;
+}
+.foot h4{
+        color: white;
+        padding-top: 20px;
+        padding-left: 500px;
+}
+/* footer end */
+
+/* CSS coding End */
